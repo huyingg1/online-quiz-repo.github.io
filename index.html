@@ -1,0 +1,172 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="resetsheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Online Quiz</title>
+  </head>
+  <body>
+    <header>
+      <div class="title" id="title">
+        <p>view high scores</p>
+      </div>
+      <div class="time">
+        <p>time: <span id="nowtime">0</span></p>
+      </div>
+    </header>
+    <main>
+      <div id="start">
+        <div class="quiz">
+          <p>Coding Quiz Challenge</p>
+        </div>
+        <div class="text">
+          <p>
+            Try to answer the following code-related questions within the time
+            limit.
+          </p>
+          <p>
+            Keep in mind that incorrect answers will penalize your score/time
+          </p>
+          <p>by sixty seconds</p>
+        </div>
+        <div class="startbtn" id="btnstart">
+          <p>start quiz</p>
+        </div>
+      </div>
+      <div id="one">
+        <div class="quiz">
+          <p>Commonly used data types DO Not Include:</p>
+        </div>
+        <div id="onea" class="choice">
+          <p>1.strings</p>
+        </div>
+        <div id="oneb" class="choice">
+          <p>2.booleans</p>
+        </div>
+        <div id="onec" class="choice">
+          <p>3.alerts</p>
+        </div>
+        <div id="oned" class="choice">
+          <p>4.numbers</p>
+        </div>
+      </div>
+      <div id="two">
+        <div class="quiz">
+          <p>The condition in an if / else statement is enclosed with_____.</p>
+        </div>
+        <div id="twoa" class="choice">
+          <p>1.quotes</p>
+        </div>
+        <div id="twob" class="choice">
+          <p>2.curly brackets</p>
+        </div>
+        <div id="twoc" class="choice">
+          <p>3.parenthesis</p>
+        </div>
+        <div id="twod" class="choice">
+          <p>4.square brackets</p>
+        </div>
+        <div class="answer">
+          <p id="answer1"></p>
+        </div>
+      </div>
+      <div id="three">
+        <div class="quiz">
+          <p>Arrays in Javascript can be used to store</p>
+        </div>
+        <div id="threea" class="choice">
+          <p>1.numbers and strings</p>
+        </div>
+        <div id="threeb" class="choice">
+          <p>2.other arrays</p>
+        </div>
+        <div id="threec" class="choice">
+          <p>3.booleans</p>
+        </div>
+        <div id="threed" class="choice">
+          <p>4.all of the above</p>
+        </div>
+        <div class="answer">
+          <p id="answer2"></p>
+        </div>
+      </div>
+      <div id="four">
+        <div class="quiz">
+          <p>
+            String values must be enclosed within___ when being assigned to
+            variables.
+          </p>
+        </div>
+        <div id="foura" class="choice">
+          <p>1.commas</p>
+        </div>
+        <div id="fourb" class="choice">
+          <p>2.curly brackets</p>
+        </div>
+        <div id="fourc" class="choice">
+          <p>3.quotes</p>
+        </div>
+        <div id="fourd" class="choice">
+          <p>4.parenthesis</p>
+        </div>
+        <div class="answer">
+          <p id="answer3"></p>
+        </div>
+      </div>
+      <div id="five">
+        <div class="quiz">
+          <p>
+            A very useful tool used during development and debugging for
+            printing content to the debugger is:
+          </p>
+        </div>
+        <div id="fivea" class="choice">
+          <p>1.Javascript</p>
+        </div>
+        <div id="fiveb" class="choice">
+          <p>2.terminal/bash</p>
+        </div>
+        <div id="fivec" class="choice">
+          <p>3.for loops</p>
+        </div>
+        <div id="fived" class="choice">
+          <p>4.console.log</p>
+        </div>
+        <div class="answer">
+          <p id="answer4"></p>
+        </div>
+      </div>
+      <div id="gradepage">
+        <div class="quiz">
+          <p>All done!</p>
+        </div>
+        <div class="text">
+          <p>Your final score is <span id="scorenum"></span>.</p>
+        </div>
+        <div class="text">
+          <p>
+            Enter initials: <input type="text" id="name" />
+            <button id="sub">Submit</button>
+          </p>
+        </div>
+        <div class="answer">
+          <p id="answer5"></p>
+        </div>
+      </div>
+      <div id="highscorepage">
+        <div class="quiz">
+          <p>High scores</p>
+        </div>
+        <div class="HighScoreDisplay">
+          <div id="res"></div>
+          <div class="bom">
+            <button id="goback">Go back</button>
+            <button id="clearrecords">Clear high scores</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

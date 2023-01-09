@@ -1,0 +1,115 @@
+/*adjust header*/
+header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+/*adjust view high scores btn*/
+.title p {
+  width: 150px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  color: white;
+  background-color: #8a2be2;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/*font and line setting for timer*/
+.time p {
+  line-height: 50px;
+  font-size: 16px;
+}
+/*gengeral seeting for main part*/
+main {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.quiz {
+  padding: 10px 0;
+}
+.quiz p {
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+/*settings for specific choice btn*/
+.choice {
+  background-color: blueviolet;
+  margin: 10px;
+  width: 200px;
+  text-indent: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.choice p {
+  line-height: 40px;
+  color: white;
+}
+/*hide pages except start page */
+#one,
+#two,
+#three,
+#four,
+#five,
+#gradepage,
+#highscorepage {
+  display: none;
+}
+/*adjust for start button*/
+.startbtn {
+  background-color: rgb(138, 43, 226);
+  margin: 10px;
+  width: 160px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.startbtn p {
+  line-height: 40px;
+  color: white;
+}
+/*answer result settings*/
+.answer {
+  border-top: 1px solid #999;
+  padding-top: 10px;
+}
+/*general settings for btn*/
+button {
+  background-color: purple;
+  color: white;
+  border-radius: 10px;
+  padding: 8px 15px;
+  border: none;
+}
+/*general settings for text*/
+.text {
+  padding: 10px 0;
+}
+.text p {
+  line-height: 25px;
+}
+.text input {
+  width: 120px;
+  height: 30px;
+  border: 1px solid cornflowerblue;
+  outline: none;
+  text-indent: 10px;
+}
+/*adjust score history area*/
+#res {
+  background-color: #999;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+.HighScoreDisplay {
+  display: flex;
+  flex-wrap: wrap;
+}
+#sub,
+#goback,
+#clearrecords {
+  cursor: pointer;
+}
