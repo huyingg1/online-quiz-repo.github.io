@@ -92,11 +92,11 @@ document.querySelector("#twoa").addEventListener("click", function () {
 
 //question 2b
 document.querySelector("#twob").addEventListener("click", function () {
-  clickchoicebtn("green", "Correct", "twob", "answer2", "two", "three");
+  clickchoicebtn("red", "Wrong", "twob", "answer2", "two", "three");
 });
 //question 2c
 document.querySelector("#twoc").addEventListener("click", function () {
-  clickchoicebtn("red", "Wrong", "twoc", "answer2", "two", "three");
+  clickchoicebtn("green", "Correct", "twoc", "answer2", "two", "three");
 });
 //question 2d
 document.querySelector("#twod").addEventListener("click", function () {
